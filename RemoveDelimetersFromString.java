@@ -11,11 +11,11 @@ public class Solution {
         
         
         String delims = "[ .,?!'_@]+";//Create a string of delimiters
-        String[] tokens = s.trim().split(delims);//remove these delimeters from the              string
+        String[] tokens = s.trim().split(delims);//remove these delimeters and extra blanks from the string
 
-        System.out.println(tokens.length);//Print the amount of words in the other string
-        for(int i = 0; i < tokens.length; i++){//for the amount of other words
-            System.out.println(tokens[i]);//print that out.
+        System.out.println(tokens.length);//Print the amount of words in the string
+        for(int i = 0; i < tokens.length; i++){//for the amount of words
+            System.out.println(tokens[i]);//print out.
             }
 
 
